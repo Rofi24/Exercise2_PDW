@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color:ghostwhite;  
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      border: 3px solid black;
+      text-align: center;
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .header {
+      background-color:aliceblue;
+      padding: 10px;
+      border-radius: 5px 5px 0 0;
+      border-bottom: 1px solid #ccc;
+      text-align: center;  
+      margin-bottom: 30px;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .media-container {
+      width: 100%;
+      text-align: center;
+    }
+
+    .media-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .media-container p {
+      margin-bottom: 20px;
+    }
+    
+    .media-container video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .survey-button {
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Stand By Me Doraemon 2</h1>
+    </div>
+
+    <div class="main-content">
+      <div class="media-container">
+        <audio src="audio.mp3" controls>
+          Your browser does not support the audio element.
+        </audio>
+        <p>Soundtrack yang digunakan pada Stand By Me Doraemon 2 [Niji-Masaki Suda]</p>
+
+        <video src="video.mp4" controls>
+          Your browser does not support the video element.
+        </video>
+        <p>Video trailer Stand By Me Doraemon 2</p>
+        <p>Nobita menuju masa depan demi menunjukkan istrinya kepada neneknya, tetapi Nobita dewasa 
+            malah kabur dari pernikahannya.</p>
+        <p>Bisakah Nobita menjadi suami yang baik bagi Shizuka?
+            Tuliskan jawaban anda pada form ketika anda menekan tombol Survey dibawah.</p>
+
+        <img src="image.png" alt="Deskripsi Gambar">
+      </div>
+      <div class="survey-button">
+        <a class="btn btn-primary" href="form.html">Survey</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
